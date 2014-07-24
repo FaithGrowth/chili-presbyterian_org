@@ -22,3 +22,8 @@ add_theme_support( 'genesis-responsive-viewport' );
 //* Add support for 3-column footer widgets
 add_theme_support( 'genesis-footer-widgets', 3 );
 
+//* Remove support for Genesis footer
+remove_action( 'genesis_footer', 'genesis_do_footer' );
+
+//* Add support for structural wraps
+add_theme_support( 'gensis_structural_wraps', array('header', 'nav', 'subnav', 'site-inner', 'footer-widgets', 'footer'));
