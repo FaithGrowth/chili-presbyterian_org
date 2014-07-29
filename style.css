@@ -51,6 +51,7 @@
 		- Entries
 		- Pagination
 		- Comments
+	- Homepage
 	- Sidebars
 	- Footer Widgets
 	- Site Footer
@@ -1343,6 +1344,84 @@ li.comment {
 	padding: 2.4rem;
 }
 
+
+/* Homepage
+---------------------------------------------------------------------------------------------------- */
+
+/* Upcoming Events
+---------------------------------------------------------------------------------------------------- */
+#upcoming-events{
+	width: 740px;
+	background-color: #f5f1df;
+	padding-left: 10px;
+	padding-top: 5px;
+	margin-bottom: 10px;
+}
+
+.event{
+	width: 100%;
+}
+
+.date{
+	width: 76px;
+	height: 25px;
+	float: left;
+	position: relative;
+	background-color: #72b84c;
+	margin-right: 15px;
+	text-align: center;
+	padding-top: 3px;
+}
+
+.event-date{
+	color: #fff;
+	font-family: "Arial";
+	font-size: 16px;
+	margin: 0px;
+}
+
+.event-name{
+	color: #31271f;
+	font-family: "Arial";
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* Service Times
+---------------------------------------------------------------------------------------------------- */
+#home-service-times{
+	float: right;
+	position: relative;
+	width: 360px;
+	margin-bottom: 10px;
+}
+
+#service-times{
+	width: 100%;
+	padding: 15px;
+	height: 282px;
+	background-color: #72b74c;
+}
+
+#service-times-inner{
+	width: 100%;
+	padding: 10px;
+	height: 251px;
+	background-color: rgba(213,221,217,.2);
+}
+
+.service-times-title{
+	color: #fff;
+	font-family: Arial;
+	font-size: 22px;
+}
+
+.service-times-body{
+	color: #262119;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+}
 
 /*
 Sidebars

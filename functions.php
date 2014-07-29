@@ -27,3 +27,23 @@ remove_action( 'genesis_footer', 'genesis_do_footer' );
 
 //* Add support for structural wraps
 add_theme_support( 'genesis-structural-wraps', array('header', 'nav', 'subnav', 'site-inner', 'footer-widgets', 'footer'));
+
+//* Add support for widget areas
+genesis_register_sidebar( array(
+    'id'            => 'home-slider',
+    'name'          => __( 'Home Slider', 'chili-pres' ),
+    'description'   => __( 'This is the slider section on the home page.', 'chili-pres' ),
+) );
+
+genesis_register_sidebar( array(
+    'id'            => 'home-events',
+    'name'          => __( 'Home Events', 'chili-pres' ),
+    'description'   => __( 'This is the upcoming events page on the home page.', 'chili-pres' ),
+) );
+
+genesis_register_sidebar( array(
+    'id'            => 'home-service-times',
+    'name'          => __( 'Home Service Times', 'chili-pres' ),
+    'description'   => __( 'This is the service times area on the home page.', 'chili-pres' ),
+) );
+?>

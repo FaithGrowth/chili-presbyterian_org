@@ -1,0 +1,18 @@
+Service Times Widget------------------------------------------
+<div id="service-times">
+  <div id="service-times-inner">
+    <h3 class="service-times-title">SUNDAY WORSHIP</h3>
+    <h5 class="service-times-body">Sunday, August 3, 2013</h5>
+    <h5 class="service-times-body">9:00 A.M.</h5>
+  </div>
+</div>
+Upcoming Event Widget Dummy Code (I'm assuming we'll make this it's own widget thing.)
+<div id="upcoming-events" class="clearfix">
+  <h4 class="entry-header">Upcoming Events</h4>
+  <div class="event">
+    <div class="date">
+      <h4 class="event-date">AUG 1</h4>
+    </div>
+    <h4 class="event-name">Launching the new website</h4>
+  </div>
+</div>
