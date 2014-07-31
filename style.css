@@ -427,7 +427,7 @@ Structure and Layout
 	-moz-box-shadow: 0 10px 3px rgba(0,0,0,.2);
 	-webkit-box-shadow: 0 10px 3px rgba(0,0,0,.2);
 	box-shadow: 0 10px 3px rgba(0,0,0,.2);
-	z-index: 9999;
+	z-index: 1;
 	position: relative;
 }
 
@@ -1416,7 +1416,7 @@ li.comment {
 	font-size: 22px;
 }
 
-.service-times-body{
+.service-times-body, .service-times-body a{
 	color: #262119;
 	font-family: Arial;
 	font-size: 14px;
@@ -1553,6 +1553,7 @@ Site Footer
 	margin-bottom: 0;
 }
 
+.pointer {cursor: default;}
 
 /*
 Media Queries
