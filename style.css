@@ -1651,7 +1651,7 @@ Site Footer
 /*
 Media Queries
 ---------------------------------------------------------------------------------------------------- */
-
+/* removing media queries 
 @media only screen and (max-width: 1139px) {
 
 	.site-inner,
@@ -1811,3 +1811,5 @@ Media Queries
 	}
 
 }
+
+*/
