@@ -424,7 +424,7 @@ Structure and Layout
 
 .wrap {
 	margin: 0 auto;
-	max-width: 1140px;
+	width: 1140px;
 }
 
 .site-inner {
