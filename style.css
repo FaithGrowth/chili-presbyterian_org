@@ -761,6 +761,36 @@ Widgets
 	border: none;
 }
 
+/*
+Google Calendar
+---------------------------------------------------------------------------------------------------- */
+.gce-list-title {
+	font-family: Lato;
+	font-size: 16px;
+	color: #000;
+}
+
+.gce-widget-list .gce-list .gce-list-event {
+	background: none !important;
+}
+
+.gce-feed-1 {
+	color: #000;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#text-3 a {
+	color: #fff;
+	border-bottom: none;
+}
+
+#text-3 .widget {
+	padding: 0 40px;
+}
+
+.time-indent {
+	margin-left: 25px
+}
 
 /*
 Plugins
@@ -1370,6 +1400,7 @@ li.comment {
 .featured-content h4 {
 	font-size: 32px;
 	margin: 24px 24px 24px 24px;
+	padding-top: 24px;
 }
 
 .featured-content img {
@@ -1432,6 +1463,11 @@ li.comment {
 	text-transform: uppercase;
 	width: 330px;
 	margin: 24px;
+}
+
+#featured-post-2 {
+	padding-bottom: 24px;
+	margin-bottom: 24px;
 }
 
 /* Service Times
@@ -1529,8 +1565,8 @@ Sidebars
 
 .sidebar .widget {
 	border-radius: 3px;
-	margin-bottom: 40px;
-	margin-bottom: 4rem;
+	margin-bottom: 0px;
+	margin-bottom: 0rem;
 	padding: 40px;
 	padding: 4rem;
 }
