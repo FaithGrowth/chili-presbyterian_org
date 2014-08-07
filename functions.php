@@ -29,7 +29,7 @@ remove_action( 'genesis_footer', 'genesis_do_footer' );
 add_action( 'genesis_footer', 'chili_footer' );
 function chili_footer() {
 	echo '<h4><em>Rooted in Faith, Growing Together, Caring for the Community</em></h4>';
-	echo '<h5>Copyright ' . date('y') . ' First Presbyterian Church, Chili, NY</h5>';
+	echo '<h5>Copyright ' . date('Y') . ' First Presbyterian Church, Chili, NY</h5>';
 }
 
 //* Add support for structural wraps

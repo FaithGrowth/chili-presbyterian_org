@@ -1369,7 +1369,7 @@ li.comment {
 
 .featured-content h4 {
 	font-size: 32px;
-	margin: 24px 24px 24px 5px;
+	margin: 24px 24px 24px 24px;
 }
 
 .featured-content img {
@@ -1391,6 +1391,47 @@ li.comment {
 
 .featured-content .entry-content a:hover {
 	text-decoration: underline;
+}
+
+.more-from-category {
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iLTEuNDIxMDg1NDcxNTIwMmUtMTQlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE3OGU0OSIgc3RvcC1vcGFjaXR5PSIxIi8+CjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzcxYjc0YiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgIDwvbGluZWFyR3JhZGllbnQ+Cgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+);
+	background-image: -moz-linear-gradient(bottom, #178e49 0%, #71b74b 100%);
+	background-image: -o-linear-gradient(bottom, #178e49 0%, #71b74b 100%);
+	background-image: -webkit-linear-gradient(bottom, #178e49 0%, #71b74b 100%);
+	background-image: linear-gradient(bottom, #178e49 0%, #71b74b 100%);
+	border: none;
+	box-shadow: none;
+	color: #fff;
+	cursor: pointer;
+	padding: 6px 12px;
+	padding: 0.6rem 1.2rem;
+	text-transform: uppercase;
+	width: 330px;
+	margin: 24px;
+}
+
+.more-from-category a{
+	color: #fff;
+}
+
+.more-from-category:hover{
+	background: #178e49;
+	background: -moz-linear-gradient(top, #178e49 0%, #71b74b 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#178e49), color-stop(100%,#71b74b));
+	background: -webkit-linear-gradient(top, #178e49 0%,#71b74b 100%);
+	background: -o-linear-gradient(top, #178e49 0%,#71b74b 100%);
+	background: -ms-linear-gradient(top, #178e49 0%,#71b74b 100%);
+	background: linear-gradient(to bottom, #178e49 0%,#71b74b 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#178e49', endColorstr='#71b74b',GradientType=0 );
+	border: none;
+	box-shadow: none;
+	color: #fff;
+	cursor: pointer;
+	padding: 6px 12px;
+	padding: 0.6rem 1.2rem;
+	text-transform: uppercase;
+	width: 330px;
+	margin: 24px;
 }
 
 /* Service Times
@@ -1420,6 +1461,8 @@ li.comment {
 	color: #fff;
 	font-family: Lato;
 	font-size: 22px;
+	padding-left: 10px;
+	padding-top: 10px;
 }
 
 .service-times-body, .service-times-body a{
@@ -1432,6 +1475,12 @@ li.comment {
 
 #service-times-inner ul {
 	list-style-position: inside;
+	margin-left: 10px;
+}
+
+#service-times-inner button {
+	margin-left: 10px;
+	margin-top: 15px;
 }
 
 /*
@@ -1515,6 +1564,7 @@ Footer Widgets
 .footer-widgets-1 {
 	margin-right: 40px;
 	margin-right: 4rem;
+	line-height: 1;
 }
 
 .footer-widgets-1,
@@ -1535,12 +1585,12 @@ Footer Widgets
 
 .footer-widgets a {
 	border-bottom: none;
-	color: #d8cdb1;
+	color: #fff;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .footer-widgets a:hover {
-	color: #ddd;
+	color: #000;
 }
 
 .footer-widgets .widget {
@@ -1566,6 +1616,7 @@ Footer Widgets
 }
 
 
+
 /*
 Site Footer
 ---------------------------------------------------------------------------------------------------- */
@@ -1573,6 +1624,9 @@ Site Footer
 .site-footer {
 	display: block;
 	background-color: #E5E1CA;
+	text-align: center;
+	padding-top: 24px;
+	padding-bottom: 24px;
 }
 
 .site-footer a {
@@ -1581,6 +1635,15 @@ Site Footer
 
 .site-footer p {
 	margin-bottom: 0;
+}
+
+.site-footer h4 {
+	font-weight: 300;
+}
+
+.site-footer h5 {
+	font-weight: 300;
+	font-size: 16px;
 }
 
 .pointer {cursor: default;}
